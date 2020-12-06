@@ -1,6 +1,6 @@
 // Import, Format and Process Data
 const fs = require('fs')
-fs.readFile('input.txt', 'utf8' , (err, data) => {
+fs.readFile('data.txt', 'utf8' , (err, data) => {
   if (err) console.error(err)
   else {
        // Split and format the input text into an Array of Objects in a format we can use.    
